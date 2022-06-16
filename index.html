@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Parchment</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="write.png">
+</head>
+<body>
+  <div id="wrapper" class="wrapper" >
+    <div class="square shape" 
+        style="
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+        top: 200px;
+        left: 200px;">
+    </div>
+    <div class="circle shape" 
+        style="
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        top: 400px;
+        left: 400px;">
+    </div>
+  </div>
+</body>
+<script type="module" src="editor.js"></script>
+</html>
+
+
+<!-- it would be nice use html elements inside of javascript code, but it only works if the code is inside an html file -->
+<!-- <script>
+  export class InputBox extends HTMLElement {
+      constructor(x, y) {
+          super();
+      }
+  }
+  
+  let div = <div></div>;
+  console.log(div);
+  </script>
+   -->
+<!--    OBSERVE PAGE TITLE
+   let pageTitle = document.querySelector('head > title');
+let titleObserver = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+        console.log("title changed")
+    });
+});
+titleObserver.observe(pageTitle, { subtree: true, characterData: true, childList: true }); -->

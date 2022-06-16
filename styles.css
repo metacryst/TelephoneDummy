@@ -1,0 +1,89 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  user-select: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  background-color: #e9c9a0;
+}
+  
+  
+
+.selected {
+  position: fixed; 
+}
+/* means that it will be relative to the screen, not its parent (selectoutline)
+this falls apart on scroll, when the select outline is positioned relative to the wrapper and the element is positioned relative to the screen */
+
+
+p {
+  position: absolute;
+  margin: 0px;
+}
+
+div {
+  position: absolute;
+  margin: 0px;
+}
+
+img {
+  position: absolute;
+  margin: 0px;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+p:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+file-icon {
+  position: absolute;
+}
+
+
+.square:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.line:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.triangle:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.file:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+
+.circle:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+
+
+.inputBox:focus {
+  outline: 0;
+}
